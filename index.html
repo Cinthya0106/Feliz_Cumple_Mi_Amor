@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juego de Cumpleaños</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+  <!-- MENSAJE EN PANTALLA -->
+  <div id="mensaje" class="mensaje"></div>
+
+  <!-- VIDEO OCULTO AL FINAL -->
+  <div id="videoFinal" style="display:none; text-align: center;">
+    <h2>🎉 Lo lograste, crack. Tienes mis respetos, mi risa... y mi corazón. 💖</h2>
+    <p>Ahora sí, ve el video y prepárate para más amor del que tu tarjeta gráfica puede procesar.</p>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/NLRAP0QsUqY?autoplay=1"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

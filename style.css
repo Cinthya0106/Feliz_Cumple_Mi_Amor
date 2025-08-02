@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #90caf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+canvas {
+  border: 2px solid #0d47a1;
+  background: linear-gradient(to bottom, #b3e5fc, #e3f2fd);
+}
+
+.mensaje {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d47a1;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fffde7;
+  border: 2px dashed #fbc02d;
+  max-width: 700px;
+  display: none;
+}
